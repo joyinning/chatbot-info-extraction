@@ -5,7 +5,7 @@
 # Information Extraction Chatbot
 
 ## Chatbot
-<img width="1666" alt="image" src="https://github.com/joyinning/joyinning.github.io/assets/123600666/dc72449b-2ea3-475a-b08c-3359ac490f8e">
+<img width="1597" alt="image" src="https://github.com/joyinning/chatbot-info-extraction/assets/123600666/66831d8f-9adc-47cb-a608-0f07e1d76709">
 https://huggingface.co/spaces/joyinning/chatbot-info-extraction
 
 ## Project Overview
