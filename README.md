@@ -2,6 +2,35 @@
 ## Project Overview
 This project aims to develop a sophisticated chatbot capable of extracting key information from text and answering questions in a 5W1H format. The project involves training and evaluating natural language processing (NLP) models and deploying them through a user-friendly Streamlit web interface.
 
+## File Structure
+```
+app.py
+model_utils.py
+requirements.txt
+models/
+    ├── bert_model.pkl   
+    ├── bilstm-model.pkl 
+    ├── config.json   
+    └── tokenizer/   
+        ├── special_tokens_map.json
+        ├── tokenizer_config.json
+        └── tokenizer.json
+        └── vocab.txt
+
+```
+1. `app.py`: The main script that defines the Gradio interface, handles user input, and interacts with functions in model_utils.py to perform information extraction and question answering.
+2. `model_utils.py`: Contains utility functions for loading models, performing Named Entity Recognition (NER), extracting 4W (Who, What, When, Where) information, generating questions, and getting answers from GPT-3.5.
+3. `requirements.txt`: Lists the Python packages required to run the application (e.g., torch, transformers, gradio, openai, tiktoken).
+4. `models/`: A folder that stores the trained model files.
+    - `bert_model.pkl`: The BERT model file.
+    - `bilstm-model.pkl`: The BiLSTM model file.
+    - `config.json`: The model configuration file.
+    - `tokenizer/:` A folder containing tokenizer-related files.
+        - `special_tokens_map.json`: Contains information about special tokens.
+        - `tokenizer_config.json`: The tokenizer configuration file.
+        - `tokenizer.json`: Contains tokenizer information.
+        - `vocab.txt`: The vocabulary file.
+
 ## Phase 1: Data Preparation and Preprocessing
 **Objective**: Prepare and process raw text data for model training and evaluation. <br>
 **Process**:
