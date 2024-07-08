@@ -89,9 +89,9 @@ models/
 **Process**:
 
 1. **File Structure**: Organize code into app.py, model_utils.py, requirements.txt, and models/ directory.
-2. **Streamlit Interface**: Create an intuitive interface for users to input text and receive extracted information.
-3. **Deployment**: Deploy the application to Streamlit Cloud or other platforms like Heroku or AWS.
-4. **Tools**: Streamlit
+2. **Gradio Interface**: Utilize Gradio's intuitive interface elements to create a user-friendly input area for text and a clearly visible button to trigger information extraction.
+3. **Deployment**: Create a new Space on Hugging Face, upload the files, and Configure the Space settings to use Gradio as the SDK and select the appropriate hardware.
+4. **Testing and Sharing**: Thoroughly test the deployed chatbot on Hugging Face Spaces to ensure it functions correctly.
 
 **Key Results**:
 1. The chatbot is readily accessible through a web interface, allowing users to interact with it effortlessly.
